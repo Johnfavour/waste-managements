@@ -1,0 +1,26 @@
+label {
+    font-size: 12px;
+}
+
+input,
+select {
+    padding: 15px;
+    margin: 15px 0;
+    width: 80%;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.new{
+    padding: 0 0 20px 0;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: 700;
+}
+a:hover {
+    text-decoration: none; 
+    color: #507ba8; 
+}

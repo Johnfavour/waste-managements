@@ -1,0 +1,38 @@
+.navbar {
+    background-color: #464bcf;
+    color: white;
+    height: 5rem;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 2rem;
+    padding-top: 0.5rem;
+}
+
+img {
+    height: 40px;
+}
+
+
+.navItem {
+    font-size: 1.0rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+.navItem:hover{
+    color: rgb(139, 139, 216);
+}
+
+@media (max-width: 768px) {
+
+    .navContainer {
+        padding-top: 1.4rem;
+    }
+
+    h1 {
+        display: none;
+    }
+}
